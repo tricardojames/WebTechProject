@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
 *
-
 {
     margin:0;
     padding: 0;
     box-sizing: border-box;
     font-family:'Poppins',sans-serif;
 }
-.header{
+body{
     min-height:100vh;
     background:linear-gradient(#3EADCF,#ABE9CD),50%;
     background-position: center;
@@ -15,13 +14,6 @@
     position:relative;
 }
 
-.image{
-    width: 5px;
-    height:10vh;
-    background-position:center;
-    background-size:cover;
-    background-image:url(https://4pawsins.com/wp-content/uploads/2018/08/dog_breed_groups_1200.jpg)
-}
 
 header{
     position:absolute;
@@ -69,17 +61,6 @@ header ul li a:hover,
     background:#fff;
     color:#3EADCF ;
 
-}
-
-.app-picture{
-    width: 40%;
-    float:right;
-}
-
-.app-picture img{
-    width: 100%;
-    margin-top:-20px;
-    padding-left:40px;
 }
 
 .banner{
@@ -152,13 +133,4 @@ text-align: left;
 
 .dropdown:hover .dropdown-content {
 display: block;
-}
-/*About Us*/
-
-.about{
-    width:30%;
-    margin:auto;
-    text-align:center;
-    padding-top:100px;
-
 }
