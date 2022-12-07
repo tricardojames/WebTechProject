@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style4.css" />
+    <link
+      href="https://fonys.googleapis.com/css?family=0swald"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+  />
+  </head>
+  <body>
+    <section>
+      <nav class="navbar">
+        <div class="navbar__container">
+          <a href="index.html" id="navbar__logo">Doggz</a>
+          <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <ul class="navbar__menu">
+            <li class="navbar__item">
+              <a href="index.html" class="navbar__links">Home</a>
+            </li>
+            <li class="navbar__item">
+              <a href="" class="navbar__links">About</a>
+            </li>
+            <li class="navbar__item">
+              <a href="breeds.html" class="navbar__links">Breeds</a>
+            </li>
+            <li class="navbar__item">
+              <a href="contact.html" class="navbar__links">Contact</a>
+            </li>
+            <li class="navbar__btn">
+              <a href="signup.html" class="button">Sign Up</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+       <div class="container"> 
+        <div class="slide-container swiper">
+          <div class="slide-content">
+            <div class="card-wrapper swiper-wrapper">
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <div class="card-image">
+                    <img src="images/fb3.jpg" alt="" class="card-img" />
+                  </div>
+                  <div class="card-content">
+                    <h2 class="name">French Bulldog</h2>
+                    <p class="description">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Tempore explicabo provident illo, suscipit aliquid
+                      numquam. Quae dolorum non, fugiat repellendus quisquam
+                      veritatis necessitatibus minima aliquam voluptate
+                      expedita, quis ab atque.
+                    </p>
+   <a href="frenchbull.html"><button class="button2">Learn More</button></a> 
+ 
+                  </div>
+                  <div class="card swiper-slide">
+                    <div class="image-content">
+                      <div class="card-image">
+                        <img src="images/fb3.jpg" alt="" class="card-img" />
+                      </div>
+                      <div class="card-content">
+                        <h2 class="name">French Bulldog</h2>
+                        <p class="description">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          Tempore explicabo provident illo, suscipit aliquid
+                          numquam. Quae dolorum non, fugiat repellendus quisquam
+                          veritatis necessitatibus minima aliquam voluptate
+                          expedita, quis ab atque.
+                        </p>
+       <a href="frenchbull.html"><button class="button2">Learn More</button></a> 
+     
+                      </div>
+                      <div class="card swiper-slide">
+                        <div class="image-content">
+                          <div class="card-image">
+                            <img src="images/fb3.jpg" alt="" class="card-img" />
+                          </div>
+                          <div class="card-content">
+                            <h2 class="name">French Bulldog</h2>
+                            <p class="description">
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                              Tempore explicabo provident illo, suscipit aliquid
+                              numquam. Quae dolorum non, fugiat repellendus quisquam
+                              veritatis necessitatibus minima aliquam voluptate
+                              expedita, quis ab atque.
+                            </p>
+           <a href="frenchbull.html"><button class="button2">Learn More</button></a> 
+         
+                          </div>
+                          <div class="card swiper-slide">
+                            <div class="image-content">
+                              <div class="card-image">
+                                <img src="images/fb3.jpg" alt="" class="card-img" />
+                              </div>
+                              <div class="card-content">
+                                <h2 class="name">French Bulldog</h2>
+                                <p class="description">
+                                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                  Tempore explicabo provident illo, suscipit aliquid
+                                  numquam. Quae dolorum non, fugiat repellendus quisquam
+                                  veritatis necessitatibus minima aliquam voluptate
+                                  expedita, quis ab atque.
+                                </p>
+               <a href="frenchbull.html"><button class="button2">Learn More</button></a> 
+             
+                              </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+       </div> 
+    </section>
+  </body>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".slide-content", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        slidesPerGroup: 3,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+
+</html>

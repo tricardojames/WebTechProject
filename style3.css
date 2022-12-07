@@ -8,81 +8,6 @@
     font-family:"Poppins",sans-serif;
 }
 
-.container{
-    height:100vh;
-
-}
-
-.container img{
-    width:100%;
-    position:absolute;
-    height:110vh;
-    object-fit: cover;
-    z-index:-1
-
-}
-
-.main-title{
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%,-50%); /*perfectly centers text*/ 
-    font-size:2.5rem;
-    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
-    font-family:"Poppins",sans-serif;
-}
-
-.content{
-    width:100%;
-    background:rgb(24,24,24);
-    min-height:110vh;
-    z-index:2;
-    position:absolute;
-}
-
-.content-images{
-    top:-50%;
-    display:flex;
-    justify-content: space-around;
-    align-items:center;
-    min-height:100vh;
-    text-align:center;
-}
-
-.heading h2{
-    font-size: var(--h2-font);
-}
-
-.text{
-    padding:2rem 20rem;
-    font-size:1.1rem;
-}
-
-.leaf{
-    width:50px;
-}
-
-.contact{
-    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
-    width:100%;
-    min-height:100vh;
-    z-index:2;
-    position:absolute;
-    align-items: center;
-}
-
-/* navigation menu */
-
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
-*
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    color:#ffff;
-    font-family:"Poppins",sans-serif;
-}
-
 /* navigation menu */
 
 nav{
@@ -206,6 +131,137 @@ nav{
     }
 }
 
-.signup{
+/* slider controls */
+.container{
+    width:100%;
+    height:100vh;
     background:linear-gradient(to top,#f6d365 0%,#fda085 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container img{
+    height:100vh;
+    width:100%;
+
+}
+.swiper{
+    width:100%;
+    height:fit-content;
+}
+
+.swiper-slide img{
+    width:100%;
+}
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+    color:#fda085;
+
+}
+/*sign up content*/
+.container{
+    height:100vh;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    background-color:linear-gradient(to top,#f6d365 0%,#fda085 100%) ;
+}
+
+.form{
+    max-width:430px;
+    border-radius:6px;
+    padding:50px;
+    width:100%;
+    background:rgb(24,24,24) ;
+
+}
+
+header{
+    font-size:28px;
+    font-weight:600;
+    color:#fda085;
+    text-align:center;
+}
+
+header h2{
+    text-align:center;
+    justify-content: center;
+    position:relative;
+}
+
+form{
+    margin-top:30px;
+
+}
+
+form .field{
+    height:50px;
+    width:100%;
+    margin-top:20px;
+}
+
+.field input,
+.field button{
+    height:100%;
+    width:100%;
+    border:none;
+    font-size: 16px;
+    font-weight:400;
+    border-radius: 6px;
+}
+
+.field input{
+
+    padding: 0 15px;
+    border:1px solid#fda085;
+}
+
+.field input:focus{
+    border-bottom-width: 2px;
+}
+
+.eye-icon{
+    position:absolute;
+    top:61.4%;
+    right:40%;
+    transform:translateY(-50%);
+    font-size:18px;
+    cursor:pointer;
+    color: #8b8b8b;
+    padding:5px;
+
+}
+
+.form-link{
+    text-align: center;
+    margin-top:10px;
+}
+
+
+.form-link span,
+.form-link span a{
+    font-size:14px;
+    font-weight:400;
+}
+
+.form a{
+    color:#fda085;
+    text-decoration: none;
+}
+
+.form a:hover{
+    text-decoration: underline;
+}
+
+.field button{
+    color:#fff;
+    background-color:#fda085;
+    transition: all 0.3s ease;
+
+}
+
+.field button:hover{
+    background-color:#f6d365;
 }
