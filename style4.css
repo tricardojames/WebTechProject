@@ -142,7 +142,6 @@ nav{
 .slide-container{
     max-width: 1120px;
     width:100%;
-    background-color: grey;
     padding: 40px 0;
 
 }
@@ -152,10 +151,10 @@ nav{
 }
 .card{
     border-radius:25px;
-    background-color: #fff;
+    background-color: rgb(24,24,24);
 }
 .image-content,
-.card-image{
+.card-content{
     display:flex;
     flex-direction:column;
     align-items: center;
@@ -164,12 +163,13 @@ nav{
 .image-content{
     position: relative;
     row-gap:5px;
+    padding:25px 0;
 }
 
 .card-image{
     position:relative;
-    height:150px;
-    width:150px;
+    height:200px;
+    width:200px;
     border-radius: 50%;
     background:#fff;
     padding:3px;
@@ -186,13 +186,13 @@ nav{
 .name{
     font-size:18px;
     font-weight:500;
-    color:#333;
+    color:#f6d365;
 
 }
 
 .description{
     font-size:14px;
-    color:#707070;
+    color:#ffff;
     text-align:center;
 }
 
@@ -211,3 +211,4 @@ nav{
     background: #f6d365;
 
 }
+

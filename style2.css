@@ -170,10 +170,11 @@ nav{
 }
 
 .content-images{
+    top:-50%;
     display:flex;
     justify-content: space-around;
     align-items:center;
-    min-height:60vh;
+    min-height:100vh;
     text-align:center;
 }
 
@@ -189,4 +190,27 @@ nav{
     z-index:2;
     position:absolute;
     align-items: center;
+}
+
+/*table */
+
+.tablebackground{
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    width:100%;
+    min-height:100vh;
+    z-index:2;
+    position:absolute;
+    align-items: center;
+
+}
+table{
+    position: absolute;
+    z-index:2;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    width:60%;
+    height:400px;
+    background: #eb3f10;
+    text-align: center;
 }
